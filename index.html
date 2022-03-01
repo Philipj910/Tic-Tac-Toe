@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>TIC-TAC-TOE</h1>
+        </div>
+        <div class="gameBoardContainer">
+            <div class="gameBoard">
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+            </div>
+        </div>
+        <div class="formDisplay">
+            <div class="form">
+                <div class="formOne">
+                    <form class=player1Form>
+                        <label for="player1">Enter Player 1's Username:</label>
+                        <input type="text" name="player1" id="player1">
+                        <input type="button" id="player1Submit" value="submit">
+                    </form>
+                </div>
+                <div class="formtwo">
+                    <form class="player2Form">
+                        <label for="player2">Enter Player 2's Username:</label>
+                        <input type="text" name="player2" id="player2">
+                        <input type="button" id="player2Submit" value="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="playerNames">
+                <div id="player1Name">
+                    <h1>(X) Player 1: </h1>
+                </div>
+                <div id="player2Name">
+                    <h1>(O) Player 2: </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
